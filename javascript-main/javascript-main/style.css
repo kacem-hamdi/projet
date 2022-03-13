@@ -1,0 +1,343 @@
+                                                        * {
+                                                            margin: 0px;
+                                                            padding: 0px;
+                                                            box-sizing: border-box;
+                                                            scroll-behavior: smooth;
+                                                        }
+                                                        
+                                                        p {
+                                                            font-weight: 300;
+                                                            color: rgb(22, 3, 3);
+                                                            font-size: 35px;
+                                                        }
+                                                        
+                                                        header {
+                                                            position: fixed;
+                                                            top: 0%;
+                                                            left: 0%;
+                                                            padding: 20px 10px;
+                                                            width: 100%;
+                                                            z-index: 1;
+                                                            display: flex;
+                                                            justify-content: space-evenly;
+                                                            align-items: center;
+                                                            border: 1px solid white;
+                                                            background-color: rgb(245, 193, 51);
+
+                                                        }
+                                                        
+                                                        .logo {
+                                                            color: black;
+                                                            font-weight: bold;
+                                                            font-size: 2em;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .logo span {
+                                                            color: brown;
+                                                        }
+                                                        
+                                                        .navbar {
+                                                            display: flex;
+                                                            position: relative;
+                                                        }
+                                                        
+                                                        .navbar li {
+                                                            list-style: none;
+                                                        }
+                                                        
+                                                        .navbar a {
+                                                            color: brown;
+                                                            text-decoration: none;
+                                                            margin-left: 30px;
+                                                            font-weight: 700;
+                                                        }
+                                                        .list-menu{
+                                                            display: none;
+                                                            font-size: 15px;
+                                                            background-color:rgb(245, 193, 51);
+                                                            width: 150px;
+                                                            position: absolute;
+                                                            color: brown;
+                                                            box-shadow:10px 10px 10px;
+                                                            cursor: pointer;
+                                                            
+                                                            
+                                                        }
+                                                        .menu-parent:hover .list-menu{
+                                                            display: block;
+
+                                                        }
+                                                    
+                                                    
+                                                    
+                                                        .list-fils{
+                                                            display: none;
+                                                            font-size: 15px;
+                                                            background-color:rgb(245, 193, 51);
+                                                            width: 150px;
+                                                            position: absolute;
+                                                            color: brown;
+                                                            box-shadow:10px 10px 10px;
+                                                            margin-left: 150px;
+                                                            
+                                                            
+                                                            
+                                                        }
+                                                        .menu-fils:hover .list-fils{
+                                                            display: block;
+                                                        }
+                                                        .list-menu li{
+                                                            padding: 5px;
+                                                        }
+                                                                                                                
+                                                        .btn-reservation {
+                                                            padding: 0px 20px;
+                                                            color:#555;
+                                                        }
+                                                        
+                                                        .btn-reservation:hover {
+                                                            color:rgb(240, 20, 20);
+                                                            text-shadow: #555;
+                                                        }
+                                                        
+                                                        header .navbar li a:hover {
+                                                            color:white;
+                                                            border-bottom: white;
+                                                        }
+                                                        
+                                                        .presentation {
+                                                            position: relative;
+                                                            width: 100%;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            min-height: 100vh;
+                                                            background: url(image/010.jpg);
+                                                            background-size: cover;
+                                                        }
+                                                        
+                                                        .presentation .contenu {
+                                                            max-width: 100%;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .presentation .contenu h1 {
+                                                            font-size: 50px;
+                                                            text-transform: capitalize;
+                                                        }
+                                                        
+                                                        .presentation .contenu p {
+                                                            font-size: 30px;
+                                                        }
+                                                        
+                                                        .btn {
+                                                            font-size:30px solid;
+                                                            color: rgb(168, 8, 8);
+                                                            background: rgb(235, 164, 12);
+                                                            padding: 10px 20px;
+                                                            display: inline-block;
+                                                            margin-top: 20px;
+                                                            text-transform: uppercase;
+                                                            text-decoration: none;
+                                                            letter-spacing: 2px;
+                                                            transition: 0.5s;
+                                                            margin-left: 10px;
+                                                        }
+                                                        
+                                                        .btn:hover {
+                                                            letter-spacing: 5px;
+                                                        }
+                                                        
+                                                        section {
+                                                            padding: 50px;
+                                                        }
+                                                        
+                                                        .row {
+                                                            display: flex;
+                                                            justify-content: space-between;
+                                                            position: relative;
+                                                            width: 100%;
+                                                        }
+                                                        
+                                                        .row.col {
+                                                            position: relative;
+                                                            width: 60%;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .row.colh2 {
+                                                            margin-bottom: 20px;
+                                                        }
+                                                        
+                                                        .titre-text {
+                                                            color: black;
+                                                            font-size: 40px;
+                                                            font-weight: 500px;
+                                                        }
+                                                        
+                                                        .titre-text span {
+                                                            color: brown;
+                                                            font-size: 80px;
+                                                        }
+                                                        
+                                                        .row .col img {
+                                                            height: 500px;
+                                                            width: 600px;
+                                                            position: relative;
+                                                        }
+                                                        
+                                                        .titre {
+                                                            display: flex;
+                                                            width: 100%;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            flex-direction: column;
+                                                        }
+                                                        
+                                                        .menu {
+                                                            margin-top: 1%;
+                                                            display: flex;
+                                                            justify-content:space-around;
+                                                            flex-wrap: wrap;
+                                                            
+                                                            
+                                                        }
+                                                        
+
+            
+                                                        .menu .contenu .box {
+                                                            width: 300px;
+                                                            margin-top: 50px;
+                                                            border: 2px solid;
+                                                            box-shadow: 10px 10px 10px;
+                                                        }
+                                                        .menu .contenu .box .inbox{
+                                                        
+                                                            width: 100%;
+                                                            
+                                                        }
+                                                        .menu .contenu .box .inbox img{
+                                                            
+                                                            top: 0;
+                                                            left: 0;
+                                                            width: 100%;
+                                                            height: 250px;
+                                                            
+
+                                                        }
+                                                        .menu .contenu .box h3{
+                                                            font-weight: 400;
+                                                            text-align: center;
+                                                        }
+                                                        .chefs{
+                                                            margin-top: 50px;
+                                                            
+                                                        }
+                                                        
+                                                         .chefs .contenu{
+                                                            display:flex;
+                                                            flex-wrap: wrap;
+                                                            justify-content:space-around;
+                                                            margin-top: 10px;
+                                                            margin-bottom: 50px;
+
+                                                            
+                                                        }
+                                                         .box {
+                                                            width: 250px;
+                                                            margin-top: 2px;
+                                                            border: 2px solid;
+                                                            box-shadow: 10px 10px 10px;
+                                                        }
+                                                    
+                                                    
+
+                                                    
+                                                
+                                                    
+                                                        
+                                                        
+                                            
+                                                        
+                                                        .inbox img{
+                                                            
+                                
+                                                            width: 100%;
+                                                            height: 250px;
+                                                            
+                                                        }
+                                                        .chefs .contenu .box h3{
+                                                            font-weight: 400;
+                                                            text-align: center;
+                                                        }
+                                                        .contact{
+                                                            background: url(image/contact.JPG);
+                                                            background-size: cover;
+                                                            box-shadow: 2px 2px 12px;
+                                                            width: 100%;
+                                                            background-position: unset; 
+                                                        }
+                                                        .contactform{
+                                                            padding: 75px 50px;
+                                                            background: white;
+                                                            box-shadow: 5px 15px 50px;
+                                                            max-width: 350px;
+                                                            margin-top: 50px;
+                                                        }
+                                                        .contactform h5{
+                                                            color: black;
+                                                            font-size: 20px;
+                                                            margin-bottom: 20px;
+
+                                                        }
+                                                        .contactform .inputboite{
+                                                            position: relative;
+                                                            width: 100%;
+                                                            margin-bottom: 20px;
+                                                        }
+                                                        .contactform .inputboite input,
+                                                        .contactform .inputboite textarea{
+                                                            width: 100%;
+                                                            border: 2px solid #555;
+                                                            padding: 10px;
+                                                            color: black;
+                                                            outline: none;
+                                                            font-size: 15px;
+                                                            font-weight: 300;
+                                                            resize: none;
+                                                        }
+                                                        .contactform .inputboite input[type="submit"]{
+                                                            font-size: 15px;
+                                                            font-weight: 500;
+                                                            color:rgb(168, 8, 8);
+                                                            background:rgb(235, 164, 12);
+                                                            display: inline-block;
+                                                            cursor: pointer;
+                                                            text-transform: uppercase;
+                                                            text-decoration: none;
+                                                            letter-spacing: 2px;
+                                                            outline:none;
+                                                            border: none;
+                                                            transition: 0,5s;
+                                                            max-width: 120px;
+                                                        }
+                                                        .footer{
+                                                            padding: 10px 20px;
+                                                            border-top: 2px solid;
+                                                            background: rgb(250, 239, 214);
+                                                            text-align: center;
+                                                            
+
+                                                        }
+                                                        .footer h6{
+                                                            font-size: 20px;
+                                                        }
+                                                        .footer h6:nth-child(1){
+                                                            color:black ;
+                                                        }
+                                                        .footer a{
+                                                            color:brown;
+                                                        }
+                                                        

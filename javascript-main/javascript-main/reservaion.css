@@ -1,0 +1,43 @@
+body{
+    background:url(image/14.jpg);
+    background-size: cover;
+    
+
+}
+.reservation{
+    display: flex;
+    justify-content: space-around;
+}
+h4{
+    font-size: 20px;
+    color: rgb(247, 227, 138);
+    
+}
+h3{
+    font-size: 26px;
+    margin-left: 45%;
+    color: rgb(243, 173, 67);
+}
+.menu{
+    display: flex;
+    justify-content:space-around;
+}
+#Normal{
+    font-size: 30px;
+}
+h5 {
+    font-size: 20px;
+}
+ul{
+    font-size: 20px;
+}
+h6{
+    font-size: 15px;
+}
+.btn{
+    font-size: 14px;
+}
+.btn a{
+    text-decoration: none;
+    
+}

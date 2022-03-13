@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservaion.css">
+        <title>Reservation</title>
+</head>
+<body>
+    <h1 style='margin-left: 60%;color: rgb(8, 8, 8); font-size: 50px;'>RESERVATION</h1>
+    <div>
+        <h3>Reservez votre table </h3>
+        <div class="reservation">
+
+            <div>
+                <h4>Nombre de personne</h4>
+                <button onclick="calculateTotal('minus')" class="min">-</button>
+                <input id="nbrPerson" onchange="calculateTotal()" type="" value='0'>
+                <button onclick="calculateTotal('plus')" class="plus">+</button>
+                
+    
+            </div>
+<div> 
+               <h4>Nature de table</h4>
+   <h5> <input onchange="calculateTotal()"  type="radio" name="natureTable" id="Normal"> Normal a 10d.000
+    <input  onchange="calculateTotal()" type="radio" name="natureTable" id="VIP"> VIP a 20d.000</h5>
+</div>
+<div>
+    <h4>Emplacement de table </h4>
+   <h5> <input onchange="calculateTotal()" type="radio" name="emplacement" id=""> exterieur a 10d.000
+    <input onchange="calculateTotal()" type="radio" name="emplacement" id=""> Interieur a 20d.000</h5>
+
+</div>
+
+        </div>
+        <h3>Reservez votre menu</h3>
+        <div class="menu">
+            
+            <div>
+             <h4><input onchange="calculateTotal()" type="radio" name="menu" id="">Menu viande 45dt</h4>
+               <h5><ul type="circle">
+                   <li>Carpaccio de boeuf</li>
+                   <li>Tagliatelle bolognaise</li>
+                   <li>Arristo di manzo</li>
+                   <li>Fondant au chocolat</li>
+               </ul></h5>
+
+            </div>
+            <div>
+              <h4><input onchange="calculateTotal()" type="radio" name="menu" id="">Menu poisson 55dt </h4> 
+                <h5><ul type="circle">
+                    <li>Carpaccio de poulpe</li>
+                    <li>Tagliatelle chevrette courgette</li>
+                    <li>Filet de loup à la belle vue</li>
+                    <li>Fondant au chocolat</li>
+                </ul></h5>
+             </div>
+        </div>
+    </div>
+    <h6>la somme de votre Reservation est de <span id="total">0</span> dinars tunisiennes</h6>
+    <button class="btn">confirmation</button>
+    <button class="btn"><a href="index.html">page d'Accueil</a> </button>
+    <script src="script.js"></script>
+</body>
+</html>
